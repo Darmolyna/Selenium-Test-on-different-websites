@@ -17,7 +17,6 @@ public class HandlingCheckbox {
 		driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).click();
 		Assert.assertTrue(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
 		//System.out.println(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected()); //returns true or false
-		
 		//count the number of checkboxes
 		//System.out.println(driver.findElements(By.cssSelector("input[type='checkbox']")).size());
 		Assert.assertEquals(driver.findElements(By.cssSelector("input[type='checkbox']")).size(), 6);
