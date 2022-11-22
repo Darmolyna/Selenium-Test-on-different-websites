@@ -34,7 +34,5 @@ public class WindowHandlingAssignment {
 		driver.switchTo().window(parentWindow);
 
 		System.out.println(driver.findElement(By.xpath("//div[@id='content']/div/h3")).getText());
-
 	}
-
 }
