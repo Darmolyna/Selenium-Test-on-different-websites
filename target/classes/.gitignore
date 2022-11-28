@@ -1,6 +1,4 @@
-/ActionsDemo.class
-/Alerts.class
-/AutoSuggestiveDropdown.class
+/Calendar.class
 /Dropdowns_EditBoxes_ErrorValidation_Ass.class
 /DynamicDropdown.class
 /FuentWait$1.class
@@ -11,8 +9,8 @@
 /Locators.class
 /Locators2.class
 /Locators3.class
-/META-INF/
 /MyWindowHandles.class
+/Scope.class
 /StaticDropDown.class
 /UpdatedDropdown.class
 /WindowActivities.class
@@ -21,5 +19,4 @@
 /cart.class
 /end2end.class
 /synchronizationAssignment.class
-/Scope.class
-/Calendar.class
+/META-INF/
