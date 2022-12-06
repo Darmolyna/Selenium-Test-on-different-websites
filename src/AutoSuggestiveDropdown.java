@@ -9,13 +9,14 @@ public class AutoSuggestiveDropdown {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Darmolyn\\Desktop\\Projects\\Drivers\\ChromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\GIFT\\eclipse-workspace\\drivers\\chrome driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.rahulshettyacademy.com/dropdownsPractise");
 		driver.findElement(By.id("autosuggest")).sendKeys("ind");
 		Thread.sleep(3000);
 		List<WebElement> options = driver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
-		
+
 		for (WebElement option : options) {
 			if (option.getText().equalsIgnoreCase("India")) {
 				option.click();
