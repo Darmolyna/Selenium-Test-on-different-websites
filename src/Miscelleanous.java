@@ -17,7 +17,7 @@ public class Miscelleanous {
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		//driver.manage().deleteCookieNamed("asps"); //delete a particular named cookie
+		//driver.manage().deleteCookieNamed("asps"); //for deleting a particular cookies
 		
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		
