@@ -14,7 +14,7 @@ public class FuentWait {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\GIFT\\eclipse-workspace\\drivers\\chrome driver\\chromedriver.exe");
+				"C:\\Users\\Darmolyn\\Desktop\\Projects\\Drivers\\ChromeDriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
 
@@ -28,9 +28,9 @@ public class FuentWait {
 
 		WebElement foo = wait.until(new Function<WebDriver, WebElement>() { // wait until function of web-driver returns
 																			// web-element
-			public WebElement apply(WebDriver driver) { // this aaply method is expecting return type of web element...
+			public WebElement apply(WebDriver driver) { // this apply method is expecting return type of web element...
 														// if it returns null, then is waits for 3 sec's again and
-														// then research untill it returns a web element.
+														// then research until it returns a web element.
 				if (driver.findElement(By.cssSelector("[id='finish'] h4")).isDisplayed()) {
 					return driver.findElement(By.cssSelector("[id='finish'] h4"));
 				} else
