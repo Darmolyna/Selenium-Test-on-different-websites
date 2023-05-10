@@ -47,6 +47,7 @@ public class BrokenLink {
 		a.assertAll();
 		
 		
+		
 		//code for 1 url
 		String url = driver.findElement(By.cssSelector("a[href*='soapui']")).getAttribute("href");
 		HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
