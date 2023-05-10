@@ -1,15 +1,3 @@
-/ActionsDemo.class
-/Alerts.class
-/AutoSuggestiveDropdown.class
-/AutocompleteDropdownAssignment.class
-/Calendar.class
-/Dropdowns_EditBoxes_ErrorValidation_Ass.class
-/DynamicDropdown.class
-/FuentWait$1.class
-/FuentWait.class
-/HandlingCalendar.class
-/HandlingCheckbox.class
-/HandlingRadioButton.class
 /JavascriptExecutorDemo.class
 /Locators.class
 /Locators2.class
@@ -27,4 +15,5 @@
 /cart.class
 /end2end.class
 /synchronizationAssignment.class
+/BrokenLink.class
 /META-INF/

@@ -11,7 +11,7 @@ public class WindowHandlingAssignment {
 		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\GIFT\\eclipse-workspace\\drivers\\chrome driver\\chromedriver.exe");
+				"C:\\Users\\Darmolyn\\Desktop\\Projects\\Drivers\\ChromeDriver\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 
