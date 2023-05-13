@@ -14,6 +14,8 @@ public class relativeLocators {
         driver.get("https://rahulshettyacademy.com/angularpractice/");
         
         WebElement nameEditBox = driver.findElement(By.cssSelector("[name='name']:nth-child(2"));
+        // you have to import this ->import static org.openqa.selenium.support.locators.RelativeLocator.with;
+        //selenium will not suggest it for you, so you have to manually type it or browse it
         System.out.println(driver.findElement(with(By.tagName("label")).above(nameEditBox)).getText());
         
         WebElement dateofBirth = driver.findElement(By.cssSelector("[for='dateofBirth']"));
