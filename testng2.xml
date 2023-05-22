@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Personal loan Test">
+	  <classes>
+		  <class name="TestNG.Test1">
+			  <methods>
+				  <exclude name="Demo"></exclude><!-- Exclude ignore test case added in the tag and run the test for other test casess
+				  in the test file -->
+			  </methods>
+		  </class>
+		  
+		  <class name="TestNG.Test2">
+			  <methods>
+				  <exclude name="Second.*"></exclude> <!-- ignore all test cases that has the name second and run the test for other test casess
+				  in the test file -->
+			  </methods>
+		  </class>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Car loan Test">
+	  <classes>
+		  <class name="TestNG.Test1">
+			  <methods>
+				  <include name="Demo"></include><!-- include runs only test case added in the tag and ignore other test casess -->
+			  </methods>
+		  </class>
+		  
+		  <class name="TestNG.Test2"></class><!--  this runs all the test cases in test1 test file -->
+	  </classes>	  
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="random test">
+	  <classes>
+		  <class name="TestNG.Test3"></class><!--  this runs all the test cases in test1 test file -->
+	  </classes>	  
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-15T20:56:43 WAT" name="Suite" finished-at="2023-05-15T20:56:43 WAT" duration-ms="178">
+    <groups>
+    </groups>
+    <test started-at="2023-05-15T20:56:43 WAT" name="Personal loan Test" finished-at="2023-05-15T20:56:43 WAT" duration-ms="59">
+      <class name="TestNG.Test2">
+        <test-method signature="Demo()[pri:0, instance:TestNG.Test2@4dbb42b7]" started-at="2023-05-15T20:56:43 WAT" name="Demo" finished-at="2023-05-15T20:56:43 WAT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- TestNG.Test2 -->
+      <class name="TestNG.Test1">
+        <test-method is-config="true" signature="Perequisite()[pri:0, instance:TestNG.Test1@6404f418]" started-at="2023-05-15T20:56:43 WAT" name="Perequisite" finished-at="2023-05-15T20:56:43 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Perequisite -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:TestNG.Test1@6404f418]" started-at="2023-05-15T20:56:43 WAT" name="AfterTest" finished-at="2023-05-15T20:56:43 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- TestNG.Test1 -->
+    </test> <!-- Personal loan Test -->
+    <test started-at="2023-05-15T20:56:43 WAT" name="Car loan Test" finished-at="2023-05-15T20:56:43 WAT" duration-ms="27">
+      <class name="TestNG.Test2">
+        <test-method signature="Demo()[pri:0, instance:TestNG.Test2@576d5deb]" started-at="2023-05-15T20:56:43 WAT" name="Demo" finished-at="2023-05-15T20:56:43 WAT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest()[pri:0, instance:TestNG.Test2@576d5deb]" started-at="2023-05-15T20:56:43 WAT" name="SecondTest" finished-at="2023-05-15T20:56:43 WAT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- TestNG.Test2 -->
+      <class name="TestNG.Test1">
+        <test-method is-config="true" signature="Perequisite()[pri:0, instance:TestNG.Test1@5e600dd5]" started-at="2023-05-15T20:56:43 WAT" name="Perequisite" finished-at="2023-05-15T20:56:43 WAT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Perequisite -->
+        <test-method signature="Demo()[pri:0, instance:TestNG.Test1@5e600dd5]" started-at="2023-05-15T20:56:43 WAT" name="Demo" finished-at="2023-05-15T20:56:43 WAT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:TestNG.Test1@5e600dd5]" started-at="2023-05-15T20:56:43 WAT" name="AfterTest" finished-at="2023-05-15T20:56:43 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- TestNG.Test1 -->
+    </test> <!-- Car loan Test -->
+    <test started-at="2023-05-15T20:56:43 WAT" name="random test" finished-at="2023-05-15T20:56:43 WAT" duration-ms="11">
+      <class name="TestNG.Test1">
+        <test-method is-config="true" signature="ABeforeSuite()[pri:0, instance:TestNG.Test1@5e600dd5]" started-at="2023-05-15T20:56:43 WAT" name="ABeforeSuite" finished-at="2023-05-15T20:56:43 WAT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ABeforeSuite -->
+      </class> <!-- TestNG.Test1 -->
+      <class name="TestNG.Test3">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:TestNG.Test3@18df8434]" started-at="2023-05-15T20:56:43 WAT" name="BeforeSuite" finished-at="2023-05-15T20:56:43 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="Perequisite()[pri:0, instance:TestNG.Test3@18df8434]" started-at="2023-05-15T20:56:43 WAT" name="Perequisite" finished-at="2023-05-15T20:56:43 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Perequisite -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestNG.Test3@18df8434]" started-at="2023-05-15T20:56:43 WAT" name="BeforeMethod" finished-at="2023-05-15T20:56:43 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Ploan()[pri:0, instance:TestNG.Test3@18df8434]" started-at="2023-05-15T20:56:43 WAT" name="Ploan" finished-at="2023-05-15T20:56:43 WAT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ploan -->
+        <test-method is-config="true" signature="ABeforeSuite()[pri:0, instance:TestNG.Test3@18df8434]" started-at="2023-05-15T20:56:43 WAT" name="ABeforeSuite" finished-at="2023-05-15T20:56:43 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ABeforeSuite -->
+      </class> <!-- TestNG.Test3 -->
+    </test> <!-- random test -->
+  </suite> <!-- Suite -->
+</testng-results>
