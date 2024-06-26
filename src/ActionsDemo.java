@@ -10,7 +10,7 @@ public class ActionsDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\GIFT\\eclipse-workspace\\drivers\\chrome driver\\chromedriver.exe");
+        		"/Users/blessingolaiya/Desktop/SeleniumAutomation/drivers/chromedriver-mac-x64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 
 		// maximise screen size
@@ -30,5 +30,4 @@ public class ActionsDemo {
 		
 		
 	}
-
 }

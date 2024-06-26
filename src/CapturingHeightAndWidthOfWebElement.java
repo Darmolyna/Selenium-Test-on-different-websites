@@ -8,7 +8,7 @@ public class CapturingHeightAndWidthOfWebElement {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Darmolyn\\Desktop\\Projects\\Drivers\\ChromeDriver\\chromedriver.exe");
+        		"/Users/blessingolaiya/Desktop/SeleniumAutomation/drivers/chromedriver-mac-x64/chromedriver");
 		WebDriver driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/angularpractice/");
         
